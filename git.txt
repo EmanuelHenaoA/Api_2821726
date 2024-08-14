@@ -1,2 +1,14 @@
 git init
 git add .
+git commit -m "firts commit"
+git --global config user.email "email" //no siempre
+git --global config user.name "name"  //no siempre
+git branch -M main
+git remote add origin https://github.com/EmanuelHenaoA/api_2821726.git
+git push -u origin main
+
+Actualizar el repostorio
+git pull
+git add .
+git commit -m "Actualizacion de Repositorio"
+git push -u origin main
